@@ -89,10 +89,6 @@ class Subject:
         
         
     def is_classroom_valid(self, classroom: Classroom) -> bool:
-        # if classroom in self.classrooms:
-        #     return True
-        # else:
-        #     return False
         return True if not self.classrooms else classroom in self.classrooms
 
 class Group:

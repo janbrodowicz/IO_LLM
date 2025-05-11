@@ -188,25 +188,14 @@ class Schedule(Element):
                 all_classrooms.update(subject.classrooms)
         all_classrooms = list(all_classrooms)
 
-        # subject_counts = [{} for _ in self.year.groups]
-
         for group_idx, group in enumerate(self.year.groups):
             for day in range(5):
                 for hour in range(self.schedule.shape[2]):
-                    # subject = self._pick_subject_by_need(group, subject_counts[group_idx])
-                    # if subject is None:
-                    #     continue
-
                     subject = choice(group.subjects)
                     teacher = choice(subject.teachers)
                     classroom = choice(subject.classrooms) if subject.classrooms else choice(all_classrooms)
                     field = ScheduleField(subject, teacher, classroom)
                     self.schedule[group_idx][day][hour] = field if field.add_field_to_schedule() else None
-
-    # def _pick_subject_by_need(self, group: Group, scheduled_counts: dict) -> Subject:
-    #     available = [(s, s.hours - scheduled_counts.get(s, 0)) for s in group.subjects]
-    #     available = [s for s, remaining in available if remaining > 0]
-    #     return choice(available) if available else None
 
     def __str__(self):
         return str(self.schedule)

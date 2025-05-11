@@ -86,8 +86,6 @@ class Subject:
         else:
             return False
         
-        
-        
     def is_classroom_valid(self, classroom: Classroom) -> bool:
         return True if not self.classrooms else classroom in self.classrooms
 
@@ -177,7 +175,6 @@ class Schedule(Element):
         super().__init__()
 
     def _initialize_randomly(self):
-
         all_classrooms = set()
         for group in self.year.groups:
             for subject in group.subjects:
@@ -306,8 +303,6 @@ class GeneticAlgorithm:
     def run(self):
         population = self.first_population_generator()
         population.sort(key=lambda x: x.fitness)
-        # population_len = len(population)
-        # i = 0
         while True:
             selected = self.selection_strategy(population)
             new_population = selected.copy()
@@ -319,7 +314,6 @@ class GeneticAlgorithm:
 
             population = new_population
             the_best_match = min(population, key=lambda x: x.fitness)
-            # i += 1
             print(f"Generation {self.generation_count} : Best match fitness {the_best_match.fitness}")
             if self.stop_condition(the_best_match.fitness):
                 print(f"Finished after {self.generation_count} generations with fitness {the_best_match.fitness}")

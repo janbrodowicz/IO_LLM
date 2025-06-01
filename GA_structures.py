@@ -5,6 +5,7 @@ import numpy as np
 from genetic_library import Element
 from random import choice, random
 from enum import Enum
+import json
 
 
 class Teacher:
@@ -166,10 +167,16 @@ class ScheduleField:
         return self.subject.drop_subject_from_schedule()
 
 class Schedule(Element):
-    def __init__(self, year: Year, lessons_per_day: int, first_population: bool):
+    def __init__(self, year: Year, lessons_per_day: int, function_coeffs: dict, first_population: bool):
         self.year = year
         self.number_of_lessons_per_day = lessons_per_day
         self.schedule = np.zeros((len(year.groups), 5, self.number_of_lessons_per_day), dtype=object)
+        self.function_coeffs = function_coeffs
+        self.teacher_penalty = 0
+        self.classroom_penalty = 0
+        self.subjectTeacher_penalty = 0
+        self.subjectClassroom_penalty = 0
+        self.subjectHoursMissmatch_penalty = 0
         if first_population:
             self._initialize_randomly()
         super().__init__()
@@ -219,7 +226,12 @@ class Schedule(Element):
         self.schedule[group_idx][day][hour] = field if field.add_field_to_schedule() else None
     
     def evaluate_function(self):
-        penalty = 0
+        # penalty = 0
+        self.teacher_penalty = 0
+        self.classroom_penalty = 0
+        self.subjectTeacher_penalty = 0
+        self.subjectClassroom_penalty = 0
+        self.subjectHoursMissmatch_penalty = 0
         subject_usage = [dict() for _ in self.year.groups]
 
         for day in range(5):
@@ -238,38 +250,44 @@ class Schedule(Element):
 
                     # Check for duplicate teacher
                     if teacher in teacher_usage:
-                        penalty += 10
+                        # penalty += 10
+                        self.teacher_penalty += self.function_coeffs["teacher"]
                     else:
                         teacher_usage.add(teacher)
 
                     # Check for duplicate classroom
                     if classroom in classroom_usage:
-                        penalty += 5
+                        # penalty += 5
+                        self.classroom_penalty += self.function_coeffs["classroom"]
                     else:
                         classroom_usage.add(classroom)
 
                     # Invalid subject-teacher or classroom
-                    if not subject.is_teacher_valid(teacher):
-                        penalty += 20
-                    if not subject.is_classroom_valid(classroom):
-                        penalty += 10
+                    # if not subject.is_teacher_valid(teacher):
+                    #     # penalty += 20
+                    #     self.subjectTeacher_penalty += self.function_coeffs["subjectTeacher"]
+                    # if not subject.is_classroom_valid(classroom):
+                    #     # penalty += 10
+                    #     self.subjectClassroom_penalty += self.function_coeffs["subjectClassroom"]
 
                     # Count subject usage
                     if subject not in subject_usage[group_idx]:
                         subject_usage[group_idx][subject] = 0
                     subject_usage[group_idx][subject] += 1
-                
+
+        # Missmatch in subject hours     
         for group_idx, group in enumerate(self.year.groups):
             for subject in group.subjects:
                 scheduled = subject_usage[group_idx].get(subject, 0)
                 if scheduled != subject.hours:
-                    penalty += abs(scheduled - subject.hours) * 15
+                    # penalty += abs(scheduled - subject.hours) * 15
+                    self.subjectHoursMissmatch_penalty += abs(scheduled - subject.hours) * self.function_coeffs["subjectHoursMissmatch"]
 
-        self.fitness = penalty
+        self.fitness = self.teacher_penalty + self.classroom_penalty + self.subjectTeacher_penalty + self.subjectClassroom_penalty + self.subjectHoursMissmatch_penalty
         return self.fitness
     
     def crossover(self, other):
-        child = Schedule(self.year, self.number_of_lessons_per_day, first_population=False)
+        child = Schedule(self.year, self.number_of_lessons_per_day, self.function_coeffs, first_population=False)
 
         for group_idx in range(self.schedule.shape[0]):
             for day in range(5):
@@ -288,7 +306,7 @@ class GeneticAlgorithm:
         ROULETTE = 2
         TOURNAMENT = 3
 
-    def __init__(self, directory: str, population_size: int, lessons_per_day: int, selection_model: SelectionModel = SelectionModel.ELITE, mutation_probability: float = 0.1):
+    def __init__(self, directory: str, population_size: int, lessons_per_day: int, function_coeffs: dict, selection_model: SelectionModel = SelectionModel.ELITE, mutation_probability: float = 0.1):
         self.year = Year("1", directory)
         self.mutation_probability = mutation_probability
         self.selection_strategy = {
@@ -299,6 +317,7 @@ class GeneticAlgorithm:
         self.generation_count = 0
         self.population_size = population_size
         self.lessons_per_day = lessons_per_day
+        self.function_coeffs = function_coeffs
 
     def run(self):
         population = self.first_population_generator()
@@ -314,14 +333,15 @@ class GeneticAlgorithm:
 
             population = new_population
             the_best_match = min(population, key=lambda x: x.fitness)
-            print(f"Generation {self.generation_count} : Best match fitness {the_best_match.fitness}")
+            print(f"Generation {self.generation_count} : Best match fitness {the_best_match.fitness}, Teacher {the_best_match.teacher_penalty}, Classroom {the_best_match.classroom_penalty}, Subject hours missmatch {the_best_match.subjectHoursMissmatch_penalty}")
             if self.stop_condition(the_best_match.fitness):
                 print(f"Finished after {self.generation_count} generations with fitness {the_best_match.fitness}")
                 break
         self.export_schedule_to_excel(the_best_match, "Wyniki/final_schedule.xlsx")
+        self.export_schedule_to_json(the_best_match, "Wyniki/final_schedule.json")
 
     def first_population_generator(self) -> List[Schedule]:
-        return [Schedule(self.year, self.lessons_per_day, first_population=True) for _ in range(self.population_size)]
+        return [Schedule(self.year, self.lessons_per_day, self.function_coeffs, first_population=True) for _ in range(self.population_size)]
     
     def stop_condition(self, fitness: int) -> bool:
         self.generation_count += 1
@@ -368,3 +388,40 @@ class GeneticAlgorithm:
 
                 df = pd.DataFrame(data, columns=days, index=[f"Lesson {i+1}" for i in range(num_lessons)])
                 df.to_excel(writer, sheet_name=group.get_name())
+
+    
+    def export_schedule_to_json(self, schedule: Schedule, filename: str):
+        days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+        num_lessons = schedule.schedule.shape[2]
+
+        json_data = {}
+
+        for group_idx, group in enumerate(schedule.year.groups):
+            group_name = group.get_name()
+            json_data[group_name] = {}
+
+            for day_idx, day_name in enumerate(days):
+                json_data[group_name][day_name] = []
+
+                for hour in range(num_lessons):
+                    field = schedule.schedule[group_idx][day_idx][hour]
+                    if isinstance(field, ScheduleField):
+                        subj = field.get_subject().get_subject_name()
+                        teach = field.get_teacher().get_name()
+                        room = field.get_classroom().get_classroom()
+                        json_data[group_name][day_name].append({
+                            "lesson": hour + 1,
+                            "subject": subj,
+                            "teacher": teach,
+                            "classroom": room
+                        })
+                    else:
+                        json_data[group_name][day_name].append({
+                            "lesson": hour + 1,
+                            "subject": None,
+                            "teacher": None,
+                            "classroom": None
+                        })
+
+        with open(filename, "w", encoding="utf-8") as f:
+            json.dump(json_data, f, indent=4, ensure_ascii=False)

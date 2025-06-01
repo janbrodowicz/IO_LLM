@@ -1,0 +1,2000 @@
+{
+    "1a": {
+        "Monday": [
+            {
+                "lesson": 1,
+                "subject": "Niemc 1A",
+                "teacher": "Gorczyca Bogusława",
+                "classroom": "36"
+            },
+            {
+                "lesson": 2,
+                "subject": "Mat 1A",
+                "teacher": "Świderski Zygmunt",
+                "classroom": "18"
+            },
+            {
+                "lesson": 3,
+                "subject": "WF 1A",
+                "teacher": "Damian Babicki",
+                "classroom": "S3"
+            },
+            {
+                "lesson": 4,
+                "subject": "Mat 1A",
+                "teacher": "Maczkowska Mirosława",
+                "classroom": "31"
+            },
+            {
+                "lesson": 5,
+                "subject": "His i ter 1A",
+                "teacher": "Kamila Borowicz",
+                "classroom": "45 "
+            },
+            {
+                "lesson": 6,
+                "subject": "Muz 1A",
+                "teacher": "Kawa Jolanta",
+                "classroom": "45"
+            },
+            {
+                "lesson": 7,
+                "subject": "Pol 1A",
+                "teacher": "Przybylski Adam",
+                "classroom": "24"
+            }
+        ],
+        "Tuesday": [
+            {
+                "lesson": 1,
+                "subject": "Niemc 1A",
+                "teacher": "Godek Piotr",
+                "classroom": "18"
+            },
+            {
+                "lesson": 2,
+                "subject": "Rel 1A",
+                "teacher": "Pieróg Barbara",
+                "classroom": "10"
+            },
+            {
+                "lesson": 3,
+                "subject": "Pol 1A",
+                "teacher": "Drobny Elżbieta",
+                "classroom": "13"
+            },
+            {
+                "lesson": 4,
+                "subject": "Rel 1A",
+                "teacher": "Cecuła Piotr",
+                "classroom": "31"
+            },
+            {
+                "lesson": 5,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 6,
+                "subject": "Ang 1A",
+                "teacher": "Furman Aneta",
+                "classroom": "19"
+            },
+            {
+                "lesson": 7,
+                "subject": "Geo 1A",
+                "teacher": "Biłogras Jolanta",
+                "classroom": "9"
+            }
+        ],
+        "Wednesday": [
+            {
+                "lesson": 1,
+                "subject": "Mat 1A",
+                "teacher": "Pamuła Wojciech",
+                "classroom": "18"
+            },
+            {
+                "lesson": 2,
+                "subject": "Pol 1A",
+                "teacher": "Żywczyk Anna",
+                "classroom": "36"
+            },
+            {
+                "lesson": 3,
+                "subject": "Mat 1A",
+                "teacher": "Szabat Tomasz",
+                "classroom": "42"
+            },
+            {
+                "lesson": 4,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 5,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 6,
+                "subject": "Pol 1A",
+                "teacher": "Drobny Elżbieta",
+                "classroom": "17"
+            },
+            {
+                "lesson": 7,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            }
+        ],
+        "Thursday": [
+            {
+                "lesson": 1,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 2,
+                "subject": "Bio 1A",
+                "teacher": "Mazurkiewicz Wiesław ",
+                "classroom": "23"
+            },
+            {
+                "lesson": 3,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 4,
+                "subject": "EDB 1A",
+                "teacher": "Kawa Jolanta",
+                "classroom": "29"
+            },
+            {
+                "lesson": 5,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 6,
+                "subject": "Chem 1A",
+                "teacher": "Świderska Grażyna",
+                "classroom": "39"
+            },
+            {
+                "lesson": 7,
+                "subject": "Ang 1A",
+                "teacher": "Zawadzki Konrad",
+                "classroom": "32"
+            }
+        ],
+        "Friday": [
+            {
+                "lesson": 1,
+                "subject": "Fiz 1A",
+                "teacher": "Lidia Pawlowska",
+                "classroom": "40"
+            },
+            {
+                "lesson": 2,
+                "subject": "Ang 1A",
+                "teacher": "Zawadzki Konrad",
+                "classroom": "48"
+            },
+            {
+                "lesson": 3,
+                "subject": "Fiz 1A",
+                "teacher": "Wolcz Jolanta",
+                "classroom": "29"
+            },
+            {
+                "lesson": 4,
+                "subject": "Fiz 1A",
+                "teacher": "Wolcz Jolanta",
+                "classroom": "23"
+            },
+            {
+                "lesson": 5,
+                "subject": "WF 1A",
+                "teacher": "Damian Babicki",
+                "classroom": "S3"
+            },
+            {
+                "lesson": 6,
+                "subject": "WF 1A",
+                "teacher": "Kajpust Tomasz",
+                "classroom": "S4"
+            },
+            {
+                "lesson": 7,
+                "subject": "Ang 1A",
+                "teacher": "Zawadzki Konrad",
+                "classroom": "40"
+            }
+        ]
+    },
+    "1b": {
+        "Monday": [
+            {
+                "lesson": 1,
+                "subject": "Chem 1B",
+                "teacher": "Świderska Grażyna",
+                "classroom": "37"
+            },
+            {
+                "lesson": 2,
+                "subject": "Bio 1B",
+                "teacher": "Gajda Bożena",
+                "classroom": "20"
+            },
+            {
+                "lesson": 3,
+                "subject": "WF 1B",
+                "teacher": "Pamuła Bogdan",
+                "classroom": "S1"
+            },
+            {
+                "lesson": 4,
+                "subject": "WF 1B",
+                "teacher": "Pamuła Bogdan",
+                "classroom": "S3"
+            },
+            {
+                "lesson": 5,
+                "subject": "Pol 1B",
+                "teacher": "Przybylski Adam",
+                "classroom": "32"
+            },
+            {
+                "lesson": 6,
+                "subject": "Inf 1B",
+                "teacher": "Lidia Pawlowska",
+                "classroom": "49"
+            },
+            {
+                "lesson": 7,
+                "subject": "Ang 1B",
+                "teacher": "Furman Aneta",
+                "classroom": "19"
+            }
+        ],
+        "Tuesday": [
+            {
+                "lesson": 1,
+                "subject": "Inf 1B",
+                "teacher": "Andrzej Wnuk",
+                "classroom": "49"
+            },
+            {
+                "lesson": 2,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 3,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 4,
+                "subject": "His i ter 1B",
+                "teacher": "Kamila Borowicz",
+                "classroom": "29"
+            },
+            {
+                "lesson": 5,
+                "subject": "Pol 1B",
+                "teacher": "Wierzbicka Ewa",
+                "classroom": "36"
+            },
+            {
+                "lesson": 6,
+                "subject": "Mat 1B",
+                "teacher": "Maczkowska Mirosława",
+                "classroom": "16"
+            },
+            {
+                "lesson": 7,
+                "subject": "His i ter 1B",
+                "teacher": "Kamila Borowicz",
+                "classroom": "S3"
+            }
+        ],
+        "Wednesday": [
+            {
+                "lesson": 1,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 2,
+                "subject": "Geo 1B",
+                "teacher": "Gazda Beata",
+                "classroom": "9"
+            },
+            {
+                "lesson": 3,
+                "subject": "His 1B",
+                "teacher": "Ujda Malgorzata",
+                "classroom": "S1"
+            },
+            {
+                "lesson": 4,
+                "subject": "Ang 1B",
+                "teacher": "Zawadzki Konrad",
+                "classroom": "S2"
+            },
+            {
+                "lesson": 5,
+                "subject": "His 1B",
+                "teacher": "Ruta Aleksandra",
+                "classroom": "38"
+            },
+            {
+                "lesson": 6,
+                "subject": "Pol 1B",
+                "teacher": "Żywczyk Anna",
+                "classroom": "24"
+            },
+            {
+                "lesson": 7,
+                "subject": "Mat 1B",
+                "teacher": "Pamuła Wojciech",
+                "classroom": "31"
+            }
+        ],
+        "Thursday": [
+            {
+                "lesson": 1,
+                "subject": "EDB 1B",
+                "teacher": "Kawa Jolanta",
+                "classroom": "18"
+            },
+            {
+                "lesson": 2,
+                "subject": "Pol 1B",
+                "teacher": "Drobny Elżbieta",
+                "classroom": "13"
+            },
+            {
+                "lesson": 3,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 4,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 5,
+                "subject": "Ang 1B",
+                "teacher": "Zawadzki Konrad",
+                "classroom": "10"
+            },
+            {
+                "lesson": 6,
+                "subject": "WF 1B",
+                "teacher": "Kajpust Tomasz",
+                "classroom": "S2"
+            },
+            {
+                "lesson": 7,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            }
+        ],
+        "Friday": [
+            {
+                "lesson": 1,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 2,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 3,
+                "subject": "Mat 1B",
+                "teacher": "Maczkowska Mirosława",
+                "classroom": "24"
+            },
+            {
+                "lesson": 4,
+                "subject": "Plast 1C",
+                "teacher": "Kawa Jolanta",
+                "classroom": "26"
+            },
+            {
+                "lesson": 5,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 6,
+                "subject": "Mat 1B",
+                "teacher": "Pamuła Wojciech",
+                "classroom": "16"
+            },
+            {
+                "lesson": 7,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            }
+        ]
+    },
+    "1c": {
+        "Monday": [
+            {
+                "lesson": 1,
+                "subject": "His i ter 1C",
+                "teacher": "Kamila Borowicz",
+                "classroom": "45"
+            },
+            {
+                "lesson": 2,
+                "subject": "His 1C",
+                "teacher": "Bieniek Malgorzata",
+                "classroom": "48"
+            },
+            {
+                "lesson": 3,
+                "subject": "EDB 1C",
+                "teacher": "Kawa Jolanta",
+                "classroom": "S4"
+            },
+            {
+                "lesson": 4,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 5,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 6,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 7,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            }
+        ],
+        "Tuesday": [
+            {
+                "lesson": 1,
+                "subject": "WOS 1C",
+                "teacher": "Drozewska Ludmila",
+                "classroom": "17"
+            },
+            {
+                "lesson": 2,
+                "subject": "Mat 1C",
+                "teacher": "Drąg Stanisław",
+                "classroom": "31"
+            },
+            {
+                "lesson": 3,
+                "subject": "Geo 1C",
+                "teacher": "Biłogras Jolanta",
+                "classroom": "44"
+            },
+            {
+                "lesson": 4,
+                "subject": "His 1C",
+                "teacher": "Ruta Aleksandra",
+                "classroom": "10"
+            },
+            {
+                "lesson": 5,
+                "subject": "WF 1C",
+                "teacher": "Kaczmarski Leszek",
+                "classroom": "S3"
+            },
+            {
+                "lesson": 6,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 7,
+                "subject": "Mat 1C",
+                "teacher": "Maczkowska Mirosława",
+                "classroom": "31"
+            }
+        ],
+        "Wednesday": [
+            {
+                "lesson": 1,
+                "subject": "His i ter 1C",
+                "teacher": "Kamila Borowicz",
+                "classroom": "24"
+            },
+            {
+                "lesson": 2,
+                "subject": "His 1C",
+                "teacher": "Drozewska Ludmila",
+                "classroom": "13"
+            },
+            {
+                "lesson": 3,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 4,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 5,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 6,
+                "subject": "Chem 1C",
+                "teacher": "Biłogras Maciej",
+                "classroom": "37"
+            },
+            {
+                "lesson": 7,
+                "subject": "WF 1C",
+                "teacher": "Trygar Aleksandra",
+                "classroom": "S1"
+            }
+        ],
+        "Thursday": [
+            {
+                "lesson": 1,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 2,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 3,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 4,
+                "subject": "Fiz 1C",
+                "teacher": "Lidia Pawlowska",
+                "classroom": "40"
+            },
+            {
+                "lesson": 5,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 6,
+                "subject": "Plast 1C",
+                "teacher": "Kawa Jolanta",
+                "classroom": "23"
+            },
+            {
+                "lesson": 7,
+                "subject": "Mat 1C",
+                "teacher": "Maczkowska Mirosława",
+                "classroom": "19"
+            }
+        ],
+        "Friday": [
+            {
+                "lesson": 1,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 2,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 3,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 4,
+                "subject": "WF 1C",
+                "teacher": "Kaczmarski Leszek",
+                "classroom": "S3"
+            },
+            {
+                "lesson": 5,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 6,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 7,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            }
+        ]
+    },
+    "1d": {
+        "Monday": [
+            {
+                "lesson": 1,
+                "subject": "Muz 1D",
+                "teacher": "Kawa Jolanta",
+                "classroom": "38"
+            },
+            {
+                "lesson": 2,
+                "subject": "Mat 1D",
+                "teacher": "Łączek Anna",
+                "classroom": "43"
+            },
+            {
+                "lesson": 3,
+                "subject": "Niemc 1D",
+                "teacher": "Oleś Irena",
+                "classroom": "9"
+            },
+            {
+                "lesson": 4,
+                "subject": "Pol 1D",
+                "teacher": "Długosz Barbara",
+                "classroom": "36"
+            },
+            {
+                "lesson": 5,
+                "subject": "Bio 1D",
+                "teacher": "Mazurkiewicz Wiesław",
+                "classroom": "23"
+            },
+            {
+                "lesson": 6,
+                "subject": "WF 1D",
+                "teacher": "Pamuła Bogdan",
+                "classroom": "S1"
+            },
+            {
+                "lesson": 7,
+                "subject": "EDB 1D",
+                "teacher": "Kawa Jolanta",
+                "classroom": "31"
+            }
+        ],
+        "Tuesday": [
+            {
+                "lesson": 1,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 2,
+                "subject": "Niemc 1D",
+                "teacher": "Muciek Barbara",
+                "classroom": "18"
+            },
+            {
+                "lesson": 3,
+                "subject": "Geo 1D",
+                "teacher": "Gazda Beata",
+                "classroom": "43"
+            },
+            {
+                "lesson": 4,
+                "subject": "Pol 1D",
+                "teacher": "Żywczyk Anna",
+                "classroom": "25"
+            },
+            {
+                "lesson": 5,
+                "subject": "Pol 1D",
+                "teacher": "Przybylski Adam",
+                "classroom": "32"
+            },
+            {
+                "lesson": 6,
+                "subject": "WOS 1D",
+                "teacher": "Drozewska Ludmila",
+                "classroom": "31"
+            },
+            {
+                "lesson": 7,
+                "subject": "WOS 1D",
+                "teacher": "Drozewska Ludmila",
+                "classroom": "48"
+            }
+        ],
+        "Wednesday": [
+            {
+                "lesson": 1,
+                "subject": "Rel 1D",
+                "teacher": "Kula Sebastian",
+                "classroom": "40"
+            },
+            {
+                "lesson": 2,
+                "subject": "WF 1D",
+                "teacher": "Skiba Maria",
+                "classroom": "S2"
+            },
+            {
+                "lesson": 3,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 4,
+                "subject": "Rel 1D",
+                "teacher": "Kula Sebastian",
+                "classroom": "42"
+            },
+            {
+                "lesson": 5,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 6,
+                "subject": "Ang 1D",
+                "teacher": "Geraghty Katarzyna",
+                "classroom": "35"
+            },
+            {
+                "lesson": 7,
+                "subject": "His 1D",
+                "teacher": "Bieniek Malgorzata",
+                "classroom": "16"
+            }
+        ],
+        "Thursday": [
+            {
+                "lesson": 1,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 2,
+                "subject": "Inf 1D",
+                "teacher": "Andrzej Wnuk",
+                "classroom": "35"
+            },
+            {
+                "lesson": 3,
+                "subject": "His 1D",
+                "teacher": "Bieniek Malgorzata",
+                "classroom": "25"
+            },
+            {
+                "lesson": 4,
+                "subject": "Mat 1D",
+                "teacher": "Szabat Tomasz",
+                "classroom": "19"
+            },
+            {
+                "lesson": 5,
+                "subject": "Mat 1D",
+                "teacher": "Łączek Anna",
+                "classroom": "16"
+            },
+            {
+                "lesson": 6,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 7,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            }
+        ],
+        "Friday": [
+            {
+                "lesson": 1,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 2,
+                "subject": "WF 1D",
+                "teacher": "Kajpust Tomasz",
+                "classroom": "S1"
+            },
+            {
+                "lesson": 3,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 4,
+                "subject": "Pol 1D",
+                "teacher": "Wołoszynek Edyta",
+                "classroom": "37"
+            },
+            {
+                "lesson": 5,
+                "subject": "Geo 1D",
+                "teacher": "Gazda Beata",
+                "classroom": "9"
+            },
+            {
+                "lesson": 6,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 7,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            }
+        ]
+    },
+    "1e": {
+        "Monday": [
+            {
+                "lesson": 1,
+                "subject": "Geo 1E",
+                "teacher": "Gazda Beata",
+                "classroom": "19"
+            },
+            {
+                "lesson": 2,
+                "subject": "Chem 1E",
+                "teacher": "Biłogras Maciej",
+                "classroom": "13"
+            },
+            {
+                "lesson": 3,
+                "subject": "Pol 1E",
+                "teacher": "Wierzbicka Ewa",
+                "classroom": "24"
+            },
+            {
+                "lesson": 4,
+                "subject": "WF 1E",
+                "teacher": "Skiba Maria",
+                "classroom": "S4"
+            },
+            {
+                "lesson": 5,
+                "subject": "Mat 1E",
+                "teacher": "Świderski Zygmunt",
+                "classroom": "43"
+            },
+            {
+                "lesson": 6,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 7,
+                "subject": "Geo 1E",
+                "teacher": "Biłogras Jolanta",
+                "classroom": "44"
+            }
+        ],
+        "Tuesday": [
+            {
+                "lesson": 1,
+                "subject": "His i ter 1E",
+                "teacher": "Kamila Borowicz",
+                "classroom": "35"
+            },
+            {
+                "lesson": 2,
+                "subject": "Mat 1E",
+                "teacher": "Łączek Anna",
+                "classroom": "44"
+            },
+            {
+                "lesson": 3,
+                "subject": "His i ter 1E",
+                "teacher": "Kamila Borowicz",
+                "classroom": "26"
+            },
+            {
+                "lesson": 4,
+                "subject": "Inf 1E",
+                "teacher": "Lidia Pawlowska",
+                "classroom": "49"
+            },
+            {
+                "lesson": 5,
+                "subject": "Pol 1E",
+                "teacher": "Wołoszynek Edyta",
+                "classroom": "24"
+            },
+            {
+                "lesson": 6,
+                "subject": "Ang 1E",
+                "teacher": "Kajsz Jakub",
+                "classroom": "12"
+            },
+            {
+                "lesson": 7,
+                "subject": "Fiz 1E",
+                "teacher": "Wolcz Jolanta",
+                "classroom": "40"
+            }
+        ],
+        "Wednesday": [
+            {
+                "lesson": 1,
+                "subject": "Niemc 1E",
+                "teacher": "Godek Piotr",
+                "classroom": "20"
+            },
+            {
+                "lesson": 2,
+                "subject": "Muz 1E",
+                "teacher": "Kawa Jolanta",
+                "classroom": "24"
+            },
+            {
+                "lesson": 3,
+                "subject": "EDB 1E",
+                "teacher": "Kawa Jolanta",
+                "classroom": "35"
+            },
+            {
+                "lesson": 4,
+                "subject": "Ang 1E",
+                "teacher": "Żarnowska Anna",
+                "classroom": "S4"
+            },
+            {
+                "lesson": 5,
+                "subject": "Rel 1E",
+                "teacher": "Pieróg Barbara",
+                "classroom": "32"
+            },
+            {
+                "lesson": 6,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 7,
+                "subject": "WF 1E",
+                "teacher": "Kaczmarski Leszek",
+                "classroom": "S4"
+            }
+        ],
+        "Thursday": [
+            {
+                "lesson": 1,
+                "subject": "Mat 1E",
+                "teacher": "Maczkowska Mirosława",
+                "classroom": "19"
+            },
+            {
+                "lesson": 2,
+                "subject": "Ang 1E",
+                "teacher": "Żarnowska Anna",
+                "classroom": "S4"
+            },
+            {
+                "lesson": 3,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 4,
+                "subject": "Niemc 1E",
+                "teacher": "Godek Piotr",
+                "classroom": "13"
+            },
+            {
+                "lesson": 5,
+                "subject": "Ang 1E",
+                "teacher": "Żarnowska Anna",
+                "classroom": "36"
+            },
+            {
+                "lesson": 6,
+                "subject": "Rel 1E",
+                "teacher": "Kula Sebastian",
+                "classroom": "42"
+            },
+            {
+                "lesson": 7,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            }
+        ],
+        "Friday": [
+            {
+                "lesson": 1,
+                "subject": "Pol 1E",
+                "teacher": "Wierzbicka Ewa",
+                "classroom": "17"
+            },
+            {
+                "lesson": 2,
+                "subject": "WF 1E",
+                "teacher": "Pamuła Bogdan",
+                "classroom": "S2"
+            },
+            {
+                "lesson": 3,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 4,
+                "subject": "Bio 1E",
+                "teacher": "Gajda Bożena",
+                "classroom": "20"
+            },
+            {
+                "lesson": 5,
+                "subject": "Mat 1E",
+                "teacher": "Rożek Waldemar",
+                "classroom": "24"
+            },
+            {
+                "lesson": 6,
+                "subject": "Pol 1E",
+                "teacher": "Wierzbicka Ewa",
+                "classroom": "37"
+            },
+            {
+                "lesson": 7,
+                "subject": "Mat 1E",
+                "teacher": "Łączek Anna",
+                "classroom": "44"
+            }
+        ]
+    },
+    "1F": {
+        "Monday": [
+            {
+                "lesson": 1,
+                "subject": "Rel 1F",
+                "teacher": "Cecuła Piotr",
+                "classroom": "13"
+            },
+            {
+                "lesson": 2,
+                "subject": "Ang 1F",
+                "teacher": "Żarnowska Anna",
+                "classroom": "26"
+            },
+            {
+                "lesson": 3,
+                "subject": "Mat 1F",
+                "teacher": "Pamuła Wojciech",
+                "classroom": "18"
+            },
+            {
+                "lesson": 4,
+                "subject": "Pol 1F",
+                "teacher": "Wołoszynek Edyta",
+                "classroom": "13"
+            },
+            {
+                "lesson": 5,
+                "subject": "Niemc 1F",
+                "teacher": "Muciek Barbara",
+                "classroom": "42"
+            },
+            {
+                "lesson": 6,
+                "subject": "WF 1F",
+                "teacher": "Damian Babicki",
+                "classroom": "S3"
+            },
+            {
+                "lesson": 7,
+                "subject": "Inf 1F",
+                "teacher": "Andrzej Wnuk",
+                "classroom": "49"
+            }
+        ],
+        "Tuesday": [
+            {
+                "lesson": 1,
+                "subject": "Bio 1F",
+                "teacher": "Mazurkiewicz Wiesław",
+                "classroom": "20"
+            },
+            {
+                "lesson": 2,
+                "subject": "Niemc 1F",
+                "teacher": "Oleś Irena",
+                "classroom": "40"
+            },
+            {
+                "lesson": 3,
+                "subject": "His 1F",
+                "teacher": "Drozewska Ludmila",
+                "classroom": "42"
+            },
+            {
+                "lesson": 4,
+                "subject": "His 1F",
+                "teacher": "Roczniak Malgorzata",
+                "classroom": "S3"
+            },
+            {
+                "lesson": 5,
+                "subject": "Rel 1F",
+                "teacher": "Pieróg Barbara",
+                "classroom": "48"
+            },
+            {
+                "lesson": 6,
+                "subject": "Fiz 1F",
+                "teacher": "Lidia Pawlowska",
+                "classroom": "40"
+            },
+            {
+                "lesson": 7,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            }
+        ],
+        "Wednesday": [
+            {
+                "lesson": 1,
+                "subject": "WF 1F",
+                "teacher": "Damian Babicki",
+                "classroom": "S1"
+            },
+            {
+                "lesson": 2,
+                "subject": "Chem 1F",
+                "teacher": "Miazga Anna",
+                "classroom": "38"
+            },
+            {
+                "lesson": 3,
+                "subject": "WF 1F",
+                "teacher": "Damian Babicki",
+                "classroom": "S4"
+            },
+            {
+                "lesson": 4,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 5,
+                "subject": "Ang 1F",
+                "teacher": "Zawadzki Konrad",
+                "classroom": "25"
+            },
+            {
+                "lesson": 6,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 7,
+                "subject": "Mat 1F",
+                "teacher": "Drąg Stanisław",
+                "classroom": "19"
+            }
+        ],
+        "Thursday": [
+            {
+                "lesson": 1,
+                "subject": "Ang 1F",
+                "teacher": "Zawadzki Konrad",
+                "classroom": "40"
+            },
+            {
+                "lesson": 2,
+                "subject": "Pol 1F",
+                "teacher": "Wierzbicka Ewa",
+                "classroom": "37"
+            },
+            {
+                "lesson": 3,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 4,
+                "subject": "Chem 1F",
+                "teacher": "Świderska Grażyna",
+                "classroom": "39"
+            },
+            {
+                "lesson": 5,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 6,
+                "subject": "Mat 1F",
+                "teacher": "Rożek Waldemar",
+                "classroom": "40"
+            },
+            {
+                "lesson": 7,
+                "subject": "Mat 1F",
+                "teacher": "Szabat Tomasz",
+                "classroom": "31"
+            }
+        ],
+        "Friday": [
+            {
+                "lesson": 1,
+                "subject": "Pol 1F",
+                "teacher": "Drobny Elżbieta",
+                "classroom": "36"
+            },
+            {
+                "lesson": 2,
+                "subject": "Pol 1F",
+                "teacher": "Wierzbicka Ewa",
+                "classroom": "32"
+            },
+            {
+                "lesson": 3,
+                "subject": "Bio 1F",
+                "teacher": "Gajda Bożena",
+                "classroom": "39"
+            },
+            {
+                "lesson": 4,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 5,
+                "subject": "Mat 1F",
+                "teacher": "Łączek Anna",
+                "classroom": "19"
+            },
+            {
+                "lesson": 6,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 7,
+                "subject": "Muz 1F",
+                "teacher": "Kawa Jolanta",
+                "classroom": "48"
+            }
+        ]
+    },
+    "1g": {
+        "Monday": [
+            {
+                "lesson": 1,
+                "subject": "Bio 1G",
+                "teacher": "Gołojuch Małgorzata",
+                "classroom": "20"
+            },
+            {
+                "lesson": 2,
+                "subject": "WF 1G",
+                "teacher": "Trygar Aleksandra",
+                "classroom": "S3"
+            },
+            {
+                "lesson": 3,
+                "subject": "Chem 1G",
+                "teacher": "Biłogras Maciej",
+                "classroom": "37"
+            },
+            {
+                "lesson": 4,
+                "subject": "Pol 1G",
+                "teacher": "Żywczyk Anna",
+                "classroom": "25"
+            },
+            {
+                "lesson": 5,
+                "subject": "Chem 1G",
+                "teacher": "Świderska Grażyna",
+                "classroom": "39"
+            },
+            {
+                "lesson": 6,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 7,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            }
+        ],
+        "Tuesday": [
+            {
+                "lesson": 1,
+                "subject": "Mat 1G",
+                "teacher": "Szabat Tomasz",
+                "classroom": "44"
+            },
+            {
+                "lesson": 2,
+                "subject": "Mat 1G",
+                "teacher": "Rożek Waldemar",
+                "classroom": "19"
+            },
+            {
+                "lesson": 3,
+                "subject": "Fiz 1G",
+                "teacher": "Wolcz Jolanta",
+                "classroom": "10"
+            },
+            {
+                "lesson": 4,
+                "subject": "Mat 1G",
+                "teacher": "Drąg Stanisław",
+                "classroom": "40"
+            },
+            {
+                "lesson": 5,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 6,
+                "subject": "Niemc 1G",
+                "teacher": "Muciek Barbara",
+                "classroom": "17"
+            },
+            {
+                "lesson": 7,
+                "subject": "Bio 1G",
+                "teacher": "Gajda Bożena",
+                "classroom": "39"
+            }
+        ],
+        "Wednesday": [
+            {
+                "lesson": 1,
+                "subject": "Pol 1G",
+                "teacher": "Wołoszynek Edyta",
+                "classroom": "36"
+            },
+            {
+                "lesson": 2,
+                "subject": "Muz 1G",
+                "teacher": "Kawa Jolanta",
+                "classroom": "32"
+            },
+            {
+                "lesson": 3,
+                "subject": "Chem 1G",
+                "teacher": "Miazga Anna",
+                "classroom": "39"
+            },
+            {
+                "lesson": 4,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 5,
+                "subject": "WF 1G",
+                "teacher": "Kaczmarski Leszek",
+                "classroom": "S3"
+            },
+            {
+                "lesson": 6,
+                "subject": "Niemc 1G",
+                "teacher": "Gorczyca Bogusława",
+                "classroom": "10"
+            },
+            {
+                "lesson": 7,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            }
+        ],
+        "Thursday": [
+            {
+                "lesson": 1,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 2,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 3,
+                "subject": "His 1G",
+                "teacher": "Ujda Malgorzata",
+                "classroom": "45"
+            },
+            {
+                "lesson": 4,
+                "subject": "WF 1G",
+                "teacher": "Skiba Maria",
+                "classroom": "S4"
+            },
+            {
+                "lesson": 5,
+                "subject": "His 1G",
+                "teacher": "Ruta Aleksandra",
+                "classroom": "S1"
+            },
+            {
+                "lesson": 6,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 7,
+                "subject": "Ang 1G",
+                "teacher": "Furman Aneta",
+                "classroom": "49"
+            }
+        ],
+        "Friday": [
+            {
+                "lesson": 1,
+                "subject": "Bio 1G",
+                "teacher": "Gołojuch Małgorzata",
+                "classroom": "39"
+            },
+            {
+                "lesson": 2,
+                "subject": "Rel 1G",
+                "teacher": "Pieróg Barbara",
+                "classroom": "49"
+            },
+            {
+                "lesson": 3,
+                "subject": "Ang 1G",
+                "teacher": "Geraghty Katarzyna ",
+                "classroom": "16"
+            },
+            {
+                "lesson": 4,
+                "subject": "Pol 1G",
+                "teacher": "Wierzbicka Ewa",
+                "classroom": "13"
+            },
+            {
+                "lesson": 5,
+                "subject": "Rel 1G",
+                "teacher": "Kula Sebastian",
+                "classroom": "29"
+            },
+            {
+                "lesson": 6,
+                "subject": "Pol 1G",
+                "teacher": "Drobny Elżbieta",
+                "classroom": "25"
+            },
+            {
+                "lesson": 7,
+                "subject": "Ang 1G",
+                "teacher": "Furman Aneta",
+                "classroom": "18"
+            }
+        ]
+    },
+    "1h": {
+        "Monday": [
+            {
+                "lesson": 1,
+                "subject": "Niemc 1H",
+                "teacher": "Oleś Irena",
+                "classroom": "43"
+            },
+            {
+                "lesson": 2,
+                "subject": "Fiz 1H",
+                "teacher": "Lidia Pawlowska",
+                "classroom": "39"
+            },
+            {
+                "lesson": 3,
+                "subject": "Mat 1H",
+                "teacher": "Rożek Waldemar",
+                "classroom": "44"
+            },
+            {
+                "lesson": 4,
+                "subject": "Niemc 1H",
+                "teacher": "Godek Piotr",
+                "classroom": "35"
+            },
+            {
+                "lesson": 5,
+                "subject": "Ang 1H",
+                "teacher": "Strugalski Jerzy",
+                "classroom": "36"
+            },
+            {
+                "lesson": 6,
+                "subject": "Pol 1H",
+                "teacher": "Wołoszynek Edyta",
+                "classroom": "13"
+            },
+            {
+                "lesson": 7,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            }
+        ],
+        "Tuesday": [
+            {
+                "lesson": 1,
+                "subject": "Bio 1H",
+                "teacher": "Gołojuch Małgorzata",
+                "classroom": "39"
+            },
+            {
+                "lesson": 2,
+                "subject": "EDB 1H",
+                "teacher": "Kawa Jolanta",
+                "classroom": "S3"
+            },
+            {
+                "lesson": 3,
+                "subject": "His 1H",
+                "teacher": "Ujda Malgorzata",
+                "classroom": "19"
+            },
+            {
+                "lesson": 4,
+                "subject": "Pol 1H",
+                "teacher": "Wierzbicka Ewa",
+                "classroom": "37"
+            },
+            {
+                "lesson": 5,
+                "subject": "Muz 1H",
+                "teacher": "Kawa Jolanta",
+                "classroom": "44"
+            },
+            {
+                "lesson": 6,
+                "subject": "Ang 1H",
+                "teacher": "Strugalski Jerzy",
+                "classroom": "20"
+            },
+            {
+                "lesson": 7,
+                "subject": "His 1H",
+                "teacher": "Bieniek Malgorzata",
+                "classroom": "42"
+            }
+        ],
+        "Wednesday": [
+            {
+                "lesson": 1,
+                "subject": "Inf 1H",
+                "teacher": "Lidia Pawlowska",
+                "classroom": "35"
+            },
+            {
+                "lesson": 2,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 3,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 4,
+                "subject": "Geo 1H",
+                "teacher": "Biłogras Jolanta",
+                "classroom": "44"
+            },
+            {
+                "lesson": 5,
+                "subject": "Bio 1H",
+                "teacher": "Gołojuch Małgorzata",
+                "classroom": "23"
+            },
+            {
+                "lesson": 6,
+                "subject": "Pol 1H",
+                "teacher": "Długosz Barbara",
+                "classroom": "13"
+            },
+            {
+                "lesson": 7,
+                "subject": "Bio 1H",
+                "teacher": "Mazurkiewicz Wiesław",
+                "classroom": "23"
+            }
+        ],
+        "Thursday": [
+            {
+                "lesson": 1,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 2,
+                "subject": "Pol 1H",
+                "teacher": "Wołoszynek Edyta",
+                "classroom": "25"
+            },
+            {
+                "lesson": 3,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 4,
+                "subject": "Mat 1H",
+                "teacher": "Pamuła Wojciech",
+                "classroom": "32"
+            },
+            {
+                "lesson": 5,
+                "subject": "Rel 1H",
+                "teacher": "Kula Sebastian",
+                "classroom": "45"
+            },
+            {
+                "lesson": 6,
+                "subject": "Chem 1H",
+                "teacher": "Miazga Anna",
+                "classroom": "38"
+            },
+            {
+                "lesson": 7,
+                "subject": "Mat 1H",
+                "teacher": "Świderski Zygmunt",
+                "classroom": "43"
+            }
+        ],
+        "Friday": [
+            {
+                "lesson": 1,
+                "subject": "Rel 1H",
+                "teacher": "Kula Sebastian",
+                "classroom": "26"
+            },
+            {
+                "lesson": 2,
+                "subject": "His i ter 1H",
+                "teacher": "Kamila Borowicz",
+                "classroom": "42"
+            },
+            {
+                "lesson": 3,
+                "subject": "Chem 1H",
+                "teacher": "Miazga Anna",
+                "classroom": "37"
+            },
+            {
+                "lesson": 4,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 5,
+                "subject": "Ang 1H",
+                "teacher": "Furman Aneta",
+                "classroom": "35"
+            },
+            {
+                "lesson": 6,
+                "subject": "His i ter 1H",
+                "teacher": "Kamila Borowicz",
+                "classroom": "23"
+            },
+            {
+                "lesson": 7,
+                "subject": "Chem 1H",
+                "teacher": "Miazga Anna",
+                "classroom": "38"
+            }
+        ]
+    },
+    "1i": {
+        "Monday": [
+            {
+                "lesson": 1,
+                "subject": "Fiz 1I",
+                "teacher": "Wolcz Jolanta",
+                "classroom": "40"
+            },
+            {
+                "lesson": 2,
+                "subject": "Pol 1I",
+                "teacher": "Wierzbicka Ewa",
+                "classroom": "32"
+            },
+            {
+                "lesson": 3,
+                "subject": "Ang 1I",
+                "teacher": "Strugalski Jerzy",
+                "classroom": "20"
+            },
+            {
+                "lesson": 4,
+                "subject": "Bio 1I",
+                "teacher": "Mazurkiewicz Wiesław",
+                "classroom": "26"
+            },
+            {
+                "lesson": 5,
+                "subject": "Geo 1I",
+                "teacher": "Biłogras Jolanta",
+                "classroom": "20"
+            },
+            {
+                "lesson": 6,
+                "subject": "Niemc 1I",
+                "teacher": "Oleś Irena",
+                "classroom": "12"
+            },
+            {
+                "lesson": 7,
+                "subject": "Inf 1I",
+                "teacher": "Lidia Pawlowska",
+                "classroom": "35"
+            }
+        ],
+        "Tuesday": [
+            {
+                "lesson": 1,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 2,
+                "subject": "Mat 1I",
+                "teacher": "Świderski Zygmunt",
+                "classroom": "19"
+            },
+            {
+                "lesson": 3,
+                "subject": "His 1I",
+                "teacher": "Bieniek Malgorzata",
+                "classroom": "S4"
+            },
+            {
+                "lesson": 4,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 5,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 6,
+                "subject": "Ang 1I",
+                "teacher": "Geraghty Katarzyna",
+                "classroom": "36"
+            },
+            {
+                "lesson": 7,
+                "subject": "Geo 1I",
+                "teacher": "Gazda Beata",
+                "classroom": "29"
+            }
+        ],
+        "Wednesday": [
+            {
+                "lesson": 1,
+                "subject": "Rel 1I",
+                "teacher": "Cecuła Piotr",
+                "classroom": "12"
+            },
+            {
+                "lesson": 2,
+                "subject": "His 1I",
+                "teacher": "Bieniek Malgorzata",
+                "classroom": "45 "
+            },
+            {
+                "lesson": 3,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 4,
+                "subject": "Mat 1I",
+                "teacher": "Świderski Zygmunt",
+                "classroom": "48"
+            },
+            {
+                "lesson": 5,
+                "subject": "His i ter 1I",
+                "teacher": "Kamila Borowicz",
+                "classroom": "10"
+            },
+            {
+                "lesson": 6,
+                "subject": "Niemc 1I",
+                "teacher": "Muciek Barbara",
+                "classroom": "25"
+            },
+            {
+                "lesson": 7,
+                "subject": "Mat 1I",
+                "teacher": "Świderski Zygmunt",
+                "classroom": "43"
+            }
+        ],
+        "Thursday": [
+            {
+                "lesson": 1,
+                "subject": "Pol 1I",
+                "teacher": "Długosz Barbara",
+                "classroom": "32"
+            },
+            {
+                "lesson": 2,
+                "subject": "Mat 1I",
+                "teacher": "Łączek Anna",
+                "classroom": "19"
+            },
+            {
+                "lesson": 3,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 4,
+                "subject": "Mat 1I",
+                "teacher": "Świderski Zygmunt",
+                "classroom": "31"
+            },
+            {
+                "lesson": 5,
+                "subject": "Pol 1I",
+                "teacher": "Przybylski Adam",
+                "classroom": "17"
+            },
+            {
+                "lesson": 6,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 7,
+                "subject": "Pol 1I",
+                "teacher": "Żywczyk Anna",
+                "classroom": "13"
+            }
+        ],
+        "Friday": [
+            {
+                "lesson": 1,
+                "subject": "His i ter 1I",
+                "teacher": "Kamila Borowicz",
+                "classroom": "25"
+            },
+            {
+                "lesson": 2,
+                "subject": "Rel 1I",
+                "teacher": "Cecuła Piotr",
+                "classroom": "31"
+            },
+            {
+                "lesson": 3,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 4,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 5,
+                "subject": "Ang 1I",
+                "teacher": "Strugalski Jerzy",
+                "classroom": "10"
+            },
+            {
+                "lesson": 6,
+                "subject": null,
+                "teacher": null,
+                "classroom": null
+            },
+            {
+                "lesson": 7,
+                "subject": "Ang 1I",
+                "teacher": "Strugalski Jerzy",
+                "classroom": "17"
+            }
+        ]
+    }
+}

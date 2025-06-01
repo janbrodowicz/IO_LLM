@@ -4,7 +4,13 @@ def main():
 
     path = 'Dane/Year1'
 
-    ga = GeneticAlgorithm(path, 100, 15, GeneticAlgorithm.SelectionModel.ELITE)
+    evalFunctionCoeffs = {
+        "teacher" : 10,
+        "classroom" : 10,
+        "subjectHoursMissmatch" : 10
+    }
+
+    ga = GeneticAlgorithm(path, 100, 7, evalFunctionCoeffs, GeneticAlgorithm.SelectionModel.ELITE)
 
     ga.run()
 

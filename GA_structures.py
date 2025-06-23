@@ -81,6 +81,9 @@ class Subject:
         else:
             return False
         
+    def reset_hours(self):
+        self.hours_left = self.hours
+        
     def is_teacher_valid(self, teacher: Teacher) -> bool:
         if teacher in self.teachers:
             return True
@@ -297,6 +300,40 @@ class Schedule(Element):
                     child.schedule[group_idx][day] = other.schedule[group_idx][day].copy()
         child.fitness = child.evaluate_function()
 
+        return child
+    
+    def crossover_v2(self, other):
+        child = Schedule(self.year, self.number_of_lessons_per_day, self.function_coeffs, first_population=False)
+        
+        for group in self.year.groups:
+            for subject in group.subjects:
+                subject.reset_hours()
+
+        for group in other.year.groups:
+            for subject in group.subjects:
+                subject.reset_hours()
+
+        # Create a random mask of the same shape as the schedule
+        mask = np.random.randint(0, 2, size=self.schedule.shape, dtype=bool)
+
+        for group_idx in range(self.schedule.shape[0]):
+            for day in range(5):
+                for hour in range(self.schedule.shape[2]):
+                    if mask[group_idx][day][hour]:
+                        cell = self.schedule[group_idx][day][hour]
+                    else:
+                        cell = other.schedule[group_idx][day][hour]
+
+                    # Drop and re-add field to maintain hours consistency
+                    if isinstance(cell, ScheduleField):
+                        if cell.subject.add_subject_to_schedule():
+                            child.schedule[group_idx][day][hour] = cell
+                        else:
+                            child.schedule[group_idx][day][hour] = None
+                    else:
+                        child.schedule[group_idx][day][hour] = None
+
+        child.evaluate_function()
         return child
     
 class GeneticAlgorithm:
